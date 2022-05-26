@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+:root {
+    --fonte-padrao:arial, verdana , helvetica, sans-serif;
+    --fonte-destaque: 
+}
+
+* { /* Configuração global */
+    margin: 0px;
+    padding: 0px;
+}
+
+.link-nav {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    
+}
+
+.link-nav:hover {
+    color: #8ACDEA;
+    opacity: 0.9;
+}
+
+#logo {
+    width: 3rem;
+    height: 3rem;
+    
+}
+
+nav {
+    display: flex;
+   
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, helvetica, arial, sans-serif;
+    background: black;
+    height: 3.5rem;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+
+}
+
+body {
+    background-color: #7A9E9F;
+}
