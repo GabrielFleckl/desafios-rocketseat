@@ -1,16 +1,81 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/favicon/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="style/bootstrap.min.css">
     <title>Site Exemplo BootsTrap</title>
 </head>
+
 <body>
-    
-    
-    <script src="bootstrap.bundle.min.js"></script>
+    <nav class="navbar navbar-dark navbar-expand-lg mb-4 sticky-top" style="background-color: #21d311;">
+        <div class="container-fluid container ">
+            <a class="navbar-brand" href="#">Logo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false"
+                            aria-haspopup="true">
+                            Projetos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre mim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Help</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row ">
+            <div class="col-sm-10 col-md-7 mt-5">
+                <h1 class="mb-3"><strong>Build fast, responsive sites with Bootstrap</strong></h1>
+                <p class="text-muted">Powerful, extensible, and feature-packed frontend toolkit. Build and customize
+                    with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful
+                    JavaScript plugins.</p>
+                <a href="#" class="btn btn-dark btn-lg p-3"
+                    style="background-color: #21d311; border: 1px solid #21d311;">Get Started</a>
+                <a href="#" onclick="MostrarAlerta()" type="button"
+                    class="btn btn-outline-secondary btn-lg p-3">Download</a>
+                <div id="alerta" class=" d-none alert alert-success alert-dismissible fade show mt-3" role="alert">
+                    <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            </div>
+            <div class="col-sm-10 col-md-5 mt-5">
+                <img class="img-fluid rounded " src="https://picsum.photos/500/300" alt="Exemplo imagem">
+            </div>
+        </div>
+    </div>
 </body>
+<script src="/js/bootstrap.bundle.min.js"></script>
+<script>
+    function MostrarAlerta() {
+        var alerta = document.getElementById('alerta');
+        alerta.classList.toggle('d-none');
+    }
+</script>
 
 </html>
