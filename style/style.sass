@@ -1,0 +1,83 @@
+@use 'variables'
+@use 'mixins'
+
+*
+  padding: 0
+  margin: 0
+  box-sizing: border-box
+  font-family: 'Merriweather Sans', sans-serif
+  text-decoration: none
+  
+body
+  @include mixins.container
+  background-color: variables.$body-bg-color
+  color: variables.$text-color
+  display: flex
+  gap: 2.5em
+  
+  
+.sidebar
+  display: flex
+  flex-direction: column
+
+  
+  .profile
+    @include mixins.flex-center
+    @include mixins.card
+    min-width: 348px
+
+    &-photo
+      border-radius: 50%
+      border: 3px solid variables.$bg-border
+      margin: 1.8em 0px
+
+    &-name
+      margin-bottom: 4px
+      font-weight: 700
+
+    &-stack
+      font-size: .8em
+      font-weight: 300
+      margin-bottom:50px 
+
+  .social-media
+    @include mixins.card
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: flex-start
+    min-width: 328px
+    padding: 30px 0px 10px 40px
+
+    .social-name 
+      display: flex
+      align-items: flex-end
+      margin-bottom: 20px
+
+      a
+        margin-left: 15px
+        color: variables.$text-color
+        transform: 2ms ease-in
+        position: relative
+      a:hover 
+        text-decoration: underline
+      
+      img
+        cursor: pointer
+      
+        
+      
+      
+      
+  
+
+        
+
+
+
+
+
+    
+
+
+

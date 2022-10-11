@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather Sans", sans-serif;
+  text-decoration: none;
+}
+
+body {
+  padding: 2.5em;
+  margin: 0 auto;
+  background-color: #22212C;
+  color: #837E9F;
+  display: flex;
+  gap: 2.5em;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+}
+.sidebar .profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #302F3D;
+  border-radius: 1em;
+  margin-bottom: 1.9em;
+  min-width: 348px;
+}
+.sidebar .profile-photo {
+  border-radius: 50%;
+  border: 3px solid #1e9cce;
+  margin: 1.8em 0px;
+}
+.sidebar .profile-name {
+  margin-bottom: 4px;
+  font-weight: 700;
+}
+.sidebar .profile-stack {
+  font-size: 0.8em;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+.sidebar .social-media {
+  background-color: #302F3D;
+  border-radius: 1em;
+  margin-bottom: 1.9em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  min-width: 328px;
+  padding: 30px 0px 10px 40px;
+}
+.sidebar .social-media .social-name {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+.sidebar .social-media .social-name a {
+  margin-left: 15px;
+  color: #837E9F;
+  transform: 2ms ease-in;
+  position: relative;
+}
+.sidebar .social-media .social-name a:hover {
+  text-decoration: underline;
+}
+.sidebar .social-media .social-name img {
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
