@@ -32,17 +32,17 @@ body {
 .sidebar .profile-photo {
   border-radius: 50%;
   border: 3px solid #2ab94e;
-  margin: 1.8em 0px;
-  width: 128px;
+  margin: 24px 0px;
+  width: 150px;
 }
-.sidebar .profile-name {
-  margin-bottom: 4px;
+.sidebar .profile-dev {
+  margin: 6px auto;
   font-weight: 700;
 }
 .sidebar .profile-stack {
   font-size: 0.8em;
   font-weight: 300;
-  margin-bottom: 50px;
+  margin-bottom: 34px;
 }
 .sidebar .social-media {
   background-color: #302F3D;
