@@ -31,8 +31,9 @@ body {
 }
 .sidebar .profile-photo {
   border-radius: 50%;
-  border: 3px solid #1e9cce;
+  border: 3px solid #2ab94e;
   margin: 1.8em 0px;
+  width: 128px;
 }
 .sidebar .profile-name {
   margin-bottom: 4px;
