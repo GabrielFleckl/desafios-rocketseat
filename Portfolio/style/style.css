@@ -51,7 +51,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  min-width: 328px;
+  max-width: 348px;
   padding: 30px 0px 10px 40px;
 }
 .sidebar .social-media .social-name {
@@ -62,12 +62,66 @@ body {
 .sidebar .social-media .social-name a {
   margin-left: 15px;
   color: #837E9F;
-  transform: 2ms ease-in;
-  position: relative;
 }
 .sidebar .social-media .social-name a:hover {
   text-decoration: underline;
 }
-.sidebar .social-media .social-name img {
+.sidebar .social-media .social-name .img-link {
   cursor: pointer;
+}
+
+.technologies {
+  background-color: #302F3D;
+  border-radius: 1em;
+  margin-bottom: 1.9em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 348px;
+  padding: 30px 20px;
+}
+.technologies-h1 {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+.technologies-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.technologies .tech {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #CB92B1;
+  color: #000000;
+  border-radius: 30px;
+  width: 86px;
+  height: 24px;
+  font-size: 0.8em;
+}
+
+.education {
+  background-color: #302F3D;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 348px;
+  padding: 30px 20px;
+}
+.education-h1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.education-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 30px;
+  gap: 20px;
 }/*# sourceMappingURL=style.css.map */

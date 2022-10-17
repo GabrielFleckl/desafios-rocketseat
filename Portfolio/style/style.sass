@@ -46,7 +46,7 @@ body
     flex-direction: column
     justify-content: center
     align-items: flex-start
-    min-width: 328px
+    max-width: 348px
     padding: 30px 0px 10px 40px
 
     .social-name 
@@ -57,15 +57,63 @@ body
       a
         margin-left: 15px
         color: variables.$text-color
-        transform: 2ms ease-in
-        position: relative
       a:hover 
         text-decoration: underline
-      
-      img
+      .img-link
         cursor: pointer
       
-        
+.technologies 
+  @include mixins.card
+  display: flex
+  flex-direction: column
+  justify-content: center
+  width: 348px
+  padding: 30px 20px
+
+  &-h1
+    display: flex
+    align-items: flex-end
+    margin-bottom: 20px 
+
+  &-list
+    display: flex
+    justify-content: center
+    align-items: center
+    list-style: none
+    flex-wrap: wrap
+    gap: 15px
+    
+  .tech
+    display: flex
+    justify-content: center
+    align-items: center
+    background-color: variables.$bg-techs
+    color: #000000
+    border-radius: 30px
+    width: 86px
+    height: 24px
+    font-size: .8em
+
+.education
+  background-color: variables.$bg-cards
+  border-radius: 1em
+  display: flex
+  flex-direction: column
+  justify-content: center
+  width: 348px
+  padding: 30px 20px
+  
+  &-h1
+    display: flex
+    align-items: center
+    margin-bottom: 20px 
+
+  &-list
+    display: flex
+    flex-direction: column
+    padding: 0px 30px
+    gap: 20px
+    
       
       
       
