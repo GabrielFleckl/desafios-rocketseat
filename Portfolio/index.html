@@ -11,13 +11,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;700&display=swap"
         rel="stylesheet">
+        <link rel="shortcut icon" href="/Portfolio/favicon/favicon.ico" type="image/x-icon">
     <title>Portfolio</title>
 </head>
 
 <body>
     <aside class="sidebar">
         <div class="profile">
-            <img class="profile-photo" src="img/profile-photo.jpeg" alt="profile image">
+            <img class="profile-photo" src="img/profile-photo.png" alt="profile image">
             <h1 class="profile-dev">Gabriel Gonçalves</h1>
             <p class="profile-stack">Desenvolvedor Front End</p>
         </div>
@@ -46,7 +47,7 @@
                 <li class="tech">CSS</li>
                 <li class="tech">JavaScript</li>
                 <li class="tech">BootStrap</li>
-                <li class="tech">Sass</li>
+                <li class="tech">SASS</li>
                 <li class="tech">SQL</li>
             </ul>
         </div>
@@ -68,30 +69,60 @@
     </aside>
     <main class="content">
         <div class="projects">
-            <h1 class="projects-title">Meus Projetos</h1>
-            <p class="projects-paragraph">Veja todos</p>
+            <p class="projects-title">Meus Projetos</p>
+            <a class="projects-link" href="#">Veja todos</a>
         </div>
-        <div class="card">
-            <img class="card-img" src="assets/folder.svg" alt="pasta">
-            <a class="card-title" href="#">Nome de Projeto</a>
-            <p class="card-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nam laboriosam ex quis
-                nesciunt eveniet!</p>
-            <img class="card-img-details" src="assets/star.svg" alt=""> 0
-            <img class="card-img-details" src="assets/git-branch.svg" alt=""> 0
-            <p class="card-tech">HTML</p>
-            <p class="card-tech">CSS</p>
-        </div>
-        <div class="card">
-            <img class="card-img" src="assets/folder.svg" alt="pasta">
-            <a class="card-title" href="#">Nome de Projeto</a>
-            <p class="card-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nam laboriosam ex quis
-                nesciunt eveniet!</p>
-            <img class="card-img-details" src="assets/star.svg" alt=""> 0
-            <img class="card-img-details" src="assets/git-branch.svg" alt=""> 0
-            <p class="card-tech">HTML</p>
-            <p class="card-tech">CSS</p>
-        </div>
+        <article class="card-galley">
+            <div class="card">
+                <header class="card-header">
+                    <img class="card-img" src="assets/folder.svg" alt="pasta">
+                    <a class="card-title" href="#">Nome de Projeto</a>
+                </header>
+                <main class="main-card">
+                    <p class="card-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nam laboriosam ex quis
+                        nesciunt eveniet!</p>
+                </main>
+                <footer class="card-footer">
+                    <div class="card-footer-img">
+                        <img class="card-img-details" src="assets/star.svg" alt=""> 0
+                        <img class="card-img-details" src="assets/git-branch.svg" alt=""> 0
+                    </div>
+                    <div class="footer-techs">
+                        <div class="ball-orange"></div>
+                        <p class="html">HTML</p>
+                        <div class="ball-blue"></div>
+                        <p class="css">CSS</p>
+                    </div>
+                </footer>
+            </div>
+            <div class="card">
+                <header class="card-header">
+                    <img class="card-img" src="assets/folder.svg" alt="pasta">
+                    <a class="card-title" href="#">Nome de Projeto</a>
+                </header>
+                <main class="main-card">
+                    <p class="card-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nam laboriosam ex quis
+                        nesciunt eveniet!</p>
+                </main>
+                <footer class="card-footer">
+                    <div class="card-footer-img">
+                        <img class="card-img-details" src="assets/star.svg" alt=""> 0
+                        <img class="card-img-details" src="assets/git-branch.svg" alt=""> 0
+                    </div>
+                    <div class="footer-techs">
+                        <div class="ball-orange"></div>
+                        <p class="html">HTML</p>
+                        <div class="ball-blue"></div>
+                        <p class="css">CSS</p>
+                    </div>
+                </footer>
+            </div>
+        </article>
+        <footer class="content-footer">
+            <p>Feito com 💜 por Gabriel Gonçalves 😃</p>
+        </footer>
     </main>
+    
 </body>
 
 </html>

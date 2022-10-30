@@ -13,14 +13,12 @@ body
   background-color: variables.$body-bg-color
   color: variables.$text-color
   display: flex
-  gap: 2.5em
-  
+  gap: 60px
   
 .sidebar
   display: flex
   flex-direction: column
 
-  
   .profile
     @include mixins.flex-center
     @include mixins.card
@@ -29,11 +27,11 @@ body
     &-photo
       border-radius: 50%
       border: 3px solid variables.$bg-border
-      margin: 24px 0px
-      width: 150px
+      margin: 24px 0px 15px 0px 
+      width: 140px
 
     &-dev
-      margin: 6px auto
+      margin: 4px auto
       font-weight: 700
 
     &-stack
@@ -114,7 +112,98 @@ body
     flex-direction: column
     padding: 0px 30px
     gap: 20px
+
+.projects
+  display: flex
+  align-items: center
+  justify-content: space-between
+  width: 100%
+  
+  padding: 20px 30px 20px 30px
+  border-radius: 20px
+  background-color: variables.$bg-cards
+  margin-bottom: 31px
+
+  &-title
+    font-size: 20px
+    font-weight: bold
+  &-link
+    color: variables.$text-color
+    &:hover
+      text-decoration: underline
+      color: variables.$bg-border
+
+.card-galley
+  display: flex
+  gap: 30px
+
+.card
+  background-color: variables.$bg-cards
+  border-radius: 1em
+  padding: 25px 30px 30px 25px
+
+  &-header
+    display: flex
+    align-items: center
+    gap: 1em
+    margin-bottom: 22px
+
+  &-title
+    color: variables.$text-color
+
+    &:hover
+      text-decoration: underline
+      color: variables.$bg-border
+
+  &-details
+    max-width: 100%
+    margin-bottom: 22px
+
+  &-footer 
+    display: flex
+    align-items: center
+    justify-content: space-between
+    .card-footer-img
+      display: flex
+      gap: 15px
+    .footer-techs 
+      display: flex
+      gap: 10px
+      align-items: center
+      .ball-orange
+        width: 15px
+        height: 15px
+        background: #FF7A00
+        border-radius: 50%
+        border: 2px solid #837E9F
+      .ball-blue
+        width: 15px
+        height: 15px
+        background: #2A3CDC
+        border-radius: 50%
+        border: 2px solid #837E9F
+
+.content-footer
+  position: absolute
+  bottom: -405px
+  left: 540px
+
+
+
+
+
+  
+
+
+  
+
+
     
+      
+
+
+  
+
       
       
       
