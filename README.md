@@ -48,7 +48,7 @@ Aqui você pode conferir os desafios em suas respectivas versões categorizados 
 
 <br>
 
-[👉 Link para visualizar o desafio 01.](https://gabrielfleckl.github.io/desafios-front-end-mentor/QR-code/)
+[👉 Link para visualizar o desafio 01.](https://gabrielfleckl.github.io/desafios-rocketseat/Portfolio/)
 
 <br>
   <img alt="layout-web" src="Portfolio/img/desktop.png" width="100%"> 
