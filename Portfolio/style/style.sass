@@ -113,7 +113,7 @@ body
     padding: 0px 30px
     gap: 20px
 
-.projects
+.projects ,.post
   display: flex
   align-items: center
   justify-content: space-between
@@ -133,9 +133,10 @@ body
       text-decoration: underline
       color: variables.$bg-border
 
-.card-galley
+.card-gallery
   display: flex
   gap: 30px
+  margin-bottom: 30px
 
 .card
   background-color: variables.$bg-cards
@@ -183,10 +184,31 @@ body
         border-radius: 50%
         border: 2px solid #837E9F
 
-.content-footer
-  position: absolute
-  bottom: -405px
-  left: 540px
+.post-card
+  background-color: variables.$bg-cards
+  border-radius: 1em
+  padding: 30px
+  display: flex
+  gap: 20px
+  align-items: center
+  
+  .post-photo
+    border-radius: 50%
+    width: 128px
+  .post-title
+    font-size: 18px
+    font-weight: bold
+    margin-bottom: 10px
+  .post-time
+    font-size: 14px
+    margin-bottom: 20px
+  .post-description
+    font-size: 1em
+    margin-bottom: 11px
+  .post-tags
+    font-size: 14px
+
+  
 
 
 
