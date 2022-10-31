@@ -22,7 +22,7 @@ Aqui você pode conferir os desafios em suas respectivas versões categorizados 
 
 <p align="left">
   <img src="https://img.shields.io/badge/Dificuldade%20Em%20Andamento:-FE7A16?style=for-the-badge&logo=pinboard&logoColor=white" >
-  <img src="https://img.shields.io/badge/Novato-blue?style=for-the-badge&logoColor=white" >
+  <img src="https://img.shields.io/badge/😀 Iniciante-blue?style=for-the-badge&logoColor=white" >
 </p>
 
 <br>
@@ -42,8 +42,10 @@ Aqui você pode conferir os desafios em suas respectivas versões categorizados 
 ## 👶 Novato
 
 ---
+<br>
 
-### Desafio 01 - Portfolio.
+## Desafio 01 - Portfolio.
+
 <br>
 
 [👉 Link para visualizar o desafio 01.](https://gabrielfleckl.github.io/desafios-front-end-mentor/QR-code/)
