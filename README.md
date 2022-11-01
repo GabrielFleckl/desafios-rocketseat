@@ -1,5 +1,5 @@
 <h1 align="center">
-  Desafios Rocketseat
+  Desafios Rocketseat 🚀
 </h1>
 
 <p align="center">
