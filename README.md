@@ -1,5 +1,5 @@
 <h1 align="center">
-  Desafios Rocketseat
+  Desafios Rocketseat 🚀
 </h1>
 
 <p align="center">
@@ -29,7 +29,7 @@ Aqui você pode conferir os desafios em suas respectivas versões categorizados 
 
 <p align="left">
 
-  <a href="#-novato">😀 Iniciante</a>   <br>
+  <a href="#-iniciante">😀 Iniciante</a>   <br>
 
   <a href="#-intermediário">😐 Intermediário</a> <br>
 
@@ -39,9 +39,8 @@ Aqui você pode conferir os desafios em suas respectivas versões categorizados 
 
 <br>
 
-## 👶 Novato
+## 😀 Iniciante
 
----
 <br>
 
 ## Desafio 01 - Portfolio.
@@ -83,5 +82,5 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ---
 
-Feito com ♥ by Gabriel Gonçalves 🖖 &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <a href="#--desafios-rocketseat">Voltar para o Inicio ⬆️ </a>
+Feito com ♥ by Gabriel Gonçalves 🖖 &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <a href="#--desafios-rocketseat-">Voltar para o Inicio ⬆️ </a>
  

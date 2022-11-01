@@ -27,7 +27,7 @@ body {
   background-color: #302F3D;
   border-radius: 1em;
   margin-bottom: 1.9em;
-  min-width: 348px;
+  max-width: 348px;
 }
 .sidebar .profile-photo {
   border-radius: 50%;
@@ -131,7 +131,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
+  max-width: 100%;
   padding: 20px 30px 20px 30px;
   border-radius: 20px;
   background-color: #302F3D;
@@ -233,4 +233,41 @@ body {
 }
 .post-card .post-tags {
   font-size: 14px;
+}
+
+@media screen and (max-width: 1100px) {
+  body {
+    gap: 40px;
+  }
+  .sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+  .card-gallery {
+    display: flex;
+    flex-direction: column;
+  }
+  .post-photo {
+    display: none;
+  }
+}
+@media screen and (max-width: 670px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+  .content {
+    max-width: 348px;
+  }
+  .projects::before {
+    content: "";
+    width: 300px;
+    height: 2px;
+    background-color: #302F3D;
+    position: absolute;
+    top: 1030px;
+    left: 63px;
+  }
 }/*# sourceMappingURL=style.css.map */
