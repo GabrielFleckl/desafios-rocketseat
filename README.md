@@ -29,7 +29,7 @@ Aqui você pode conferir os desafios em suas respectivas versões categorizados 
 
 <p align="left">
 
-  <a href="#-novato">😀 Iniciante</a>   <br>
+  <a href="#-iniciante">😀 Iniciante</a>   <br>
 
   <a href="#-intermediário">😐 Intermediário</a> <br>
 
@@ -39,7 +39,7 @@ Aqui você pode conferir os desafios em suas respectivas versões categorizados 
 
 <br>
 
-## 👶 Novato
+## 😀 Iniciante
 
 <br>
 
