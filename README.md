@@ -41,7 +41,6 @@ Aqui você pode conferir os desafios em suas respectivas versões categorizados 
 
 ## 👶 Novato
 
----
 <br>
 
 ## Desafio 01 - Portfolio.
