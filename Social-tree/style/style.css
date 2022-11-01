@@ -35,6 +35,7 @@ body {
   font-weight: 300;
   color: #BB99DD;
   margin-bottom: 33px;
+  cursor: pointer;
 }
 
 .link-box {
