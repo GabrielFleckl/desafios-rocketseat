@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121214;
+}
+
+.reading-pic {
+  max-width: 720px;
+  min-height: 100vh;
+  float: right;
+}
+
+.container {
+  margin-top: 50px;
+  margin-left: 30px;
+  position: absolute;
+}
+.container .logo {
+  max-width: 389px;
+  margin-bottom: 92px;
+}
+.container .title {
+  font-family: "Work Sans";
+  font-size: 26px;
+  color: #04D361;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.container .mid {
+  font-family: "League Spartan";
+  font-size: 19px;
+  color: #E1E1E6;
+  font-weight: 700;
+  margin-bottom: 9px;
+}
+.container .bottom {
+  font-family: "League Spartan";
+  font-size: 20px;
+  color: #A8A8A8;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.text-box {
+  max-width: 70%;
+}
+
+label {
+  font-family: "League Spartan";
+  font-size: 19px;
+  color: #A8A8A8;
+  font-weight: 700;
+}
+
+.input-box input {
+  min-width: 83%;
+  height: 48px;
+  margin-top: 17px;
+}
+
+.input-box input::-moz-placeholder {
+  font-family: "Work Sans";
+  padding-left: 10px;
+  font-weight: 400;
+}
+
+.input-box input:-ms-input-placeholder {
+  font-family: "Work Sans";
+  padding-left: 10px;
+  font-weight: 400;
+}
+
+.input-box input::placeholder {
+  font-family: "Work Sans";
+  padding-left: 10px;
+  font-weight: 400;
+}
+
+.green-bar {
+  width: 5px;
+  height: 48px;
+  background-color: #04D361;
+  position: absolute;
+}/*# sourceMappingURL=style.css.map */
