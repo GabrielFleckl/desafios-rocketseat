@@ -44,14 +44,14 @@ body {
 }
 .container .bottom {
   font-family: "League Spartan";
-  font-size: 17.5px;
+  font-size: 16.5px;
   color: #A8A8A8;
   font-weight: 300;
   margin-bottom: 50px;
 }
 
 .text-box {
-  max-width: 647px;
+  max-width: 600px;
   padding-right: 10px;
 }
 
