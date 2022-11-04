@@ -69,10 +69,31 @@ Esse desafio foi desenvolvido com as seguintes tecnologias:
 
 <br>
 
-[👉 Link para visualizar o desafio 01.](https://gabrielfleckl.github.io/desafios-rocketseat/Social-tree/)
+[👉 Link para visualizar o desafio 02.](https://gabrielfleckl.github.io/desafios-rocketseat/Social-tree/)
 
 <br>
   <img alt="layout-web" src="Social-tree/img/desktop.png" width="100%"> 
+
+<br>
+
+## 🚀 Tecnologias
+
+Esse desafio foi desenvolvido com as seguintes tecnologias:
+
+![image](https://img.shields.io/badge/HTML-orangered?style=for-the-badge&logo=html5&logoColor=white)<br>
+![image](https://img.shields.io/badge/CSS-blue?&style=for-the-badge&logo=css3&logoColor=white)<br>
+![image](https://camo.githubusercontent.com/8849f369ac031cc842a4ab4248c7f7db6a4b593cad1f2d1c01d3aeb6f0f8dca7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f536173732d4343363639393f7374796c653d666f722d7468652d6261646765266c6f676f3d73617373266c6f676f436f6c6f723d7768697465)<br>
+
+---
+
+## Desafio 03 - RocketNews.
+
+<br>
+
+[👉 Link para visualizar o desafio 03.](https://gabrielfleckl.github.io/desafios-rocketseat/RocketNews/)
+
+<br>
+  <img alt="layout-web" src="RocketNews/assets/desktop.png" width="100%"> 
 
 <br>
 
