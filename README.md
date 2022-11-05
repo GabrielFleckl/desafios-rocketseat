@@ -12,7 +12,10 @@
 <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
 </p>
 
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+
 <a href ="https://app.rocketseat.com.br/me/gabriel-goncalves" alt="peril rocket"><img src="https://img.shields.io/badge/Meu%20perfil%20Rocketseat-8257E6?style=for-the-badge" target="_blank"></a>
+
 
 ## 💣 Desafios
 
@@ -22,7 +25,7 @@ Aqui você pode conferir os desafios em suas respectivas versões categorizados 
 
 <p align="left">
   <img src="https://img.shields.io/badge/Dificuldade%20Em%20Andamento:-FE7A16?style=for-the-badge&logo=pinboard&logoColor=white" >
-  <img src="https://img.shields.io/badge/😀 Iniciante-blue?style=for-the-badge&logoColor=white" >
+  <img src="https://img.shields.io/badge/%F0%9F%98%90%20Intermedi%C3%A1rio-orangered?style=for-the-badge&logoColor=white" >
 </p>
 
 <br>
@@ -128,6 +131,12 @@ Esse desafio foi desenvolvido com as seguintes tecnologias:
 ![image](https://camo.githubusercontent.com/8849f369ac031cc842a4ab4248c7f7db6a4b593cad1f2d1c01d3aeb6f0f8dca7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f536173732d4343363639393f7374796c653d666f722d7468652d6261646765266c6f676f3d73617373266c6f676f436f6c6f723d7768697465)<br>
 
 ---
+
+<br>
+
+## 😐 Intermediário
+
+![image](https://img.shields.io/badge/Em%20andamento-yellow?&style=for-the-badge&logo=AdBlock&logoColor=white)
 
 <br>
 
