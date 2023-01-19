@@ -148,7 +148,7 @@ Esse desafio foi desenvolvido com as seguintes tecnologias:
 
 <br>
 
-[👉 Link para visualizar o desafio #boraCodar 01.](https://gabrielfleckl.github.io/desafios-rocketseat/Pagina-de-receitas/)
+[👉 Link para visualizar o desafio #boraCodar 01.](https://gabrielfleckl.github.io/desafios-rocketseat/BoraCodar/01/index.html)
 
 <br>
   <img alt="layout-web" src="BoraCodar/01/img/desktop.png" width="100%"> 
