@@ -140,6 +140,35 @@ Esse desafio foi desenvolvido com as seguintes tecnologias:
 
 <br>
 
+<h1 align="center">
+  #boraCodar 👨‍💻
+</h1>
+
+## #BoraCodar Um Player De Musica.
+
+<br>
+
+[👉 Link para visualizar o desafio #boraCodar 01.](https://gabrielfleckl.github.io/desafios-rocketseat/Pagina-de-receitas/)
+
+<br>
+  <img alt="layout-web" src="BoraCodar/01/img/desktop.png" width="100%"> 
+
+<br>
+
+## 🚀 Tecnologias
+
+Esse desafio foi desenvolvido com as seguintes tecnologias:
+
+![image](https://img.shields.io/badge/HTML-orangered?style=for-the-badge&logo=html5&logoColor=white)<br>
+![image](https://img.shields.io/badge/CSS-blue?&style=for-the-badge&logo=css3&logoColor=white)<br>
+<br>
+
+---
+
+
+
+<br>
+
 ## 📝 Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
