@@ -141,10 +141,10 @@ Esse desafio foi desenvolvido com as seguintes tecnologias:
 <br>
 
 <h1 align="center">
-  #boraCodar 👨‍💻
+  #BoraCodar 👨‍💻
 </h1>
 
-## #BoraCodar Um Player De Musica.
+## Bora Codar Um Player De Musica.
 
 <br>
 
