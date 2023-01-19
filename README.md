@@ -5,7 +5,9 @@
 <p align="center">
   <a href="#-desafios">Desafios</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-licença">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-contato">Contato</a>
+  <a href="#-contato">Contato</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#--boracodar-">#BoraCodar</a>
+  
 </p>
 <br>
 <p>
@@ -144,6 +146,8 @@ Esse desafio foi desenvolvido com as seguintes tecnologias:
   #BoraCodar 👨‍💻
 </h1>
 
+<br>
+
 ## ⏯️ Bora Codar Um Player De Musica.
 
 <br>
@@ -165,6 +169,28 @@ Esse desafio foi desenvolvido com as seguintes tecnologias:
 
 ---
 
+<br>
+
+## 🛋️ Bora Codar Um Card De Produto.
+
+<br>
+
+[👉 Link para visualizar o desafio #boraCodar 02.](https://gabrielfleckl.github.io/desafios-rocketseat/BoraCodar/02/index.html)
+
+<br>
+  <img alt="layout-web" src="BoraCodar/02/assets/desktop.png" width="100%"> 
+
+<br>
+
+## 🚀 Tecnologias
+
+Esse desafio foi desenvolvido com as seguintes tecnologias:
+
+![image](https://img.shields.io/badge/HTML-orangered?style=for-the-badge&logo=html5&logoColor=white)<br>
+![image](https://img.shields.io/badge/CSS-blue?&style=for-the-badge&logo=css3&logoColor=white)<br>
+<br>
+
+---
 
 
 <br>
