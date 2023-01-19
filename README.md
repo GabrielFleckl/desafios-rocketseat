@@ -144,7 +144,7 @@ Esse desafio foi desenvolvido com as seguintes tecnologias:
   #BoraCodar 👨‍💻
 </h1>
 
-## Bora Codar Um Player De Musica.
+## ⏯️ Bora Codar Um Player De Musica.
 
 <br>
 
